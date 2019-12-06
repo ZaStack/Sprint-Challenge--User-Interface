@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    width: 100%;
+    padding: 0 0 0 45px;
+    /* background: lightblue; */
+}
+
+header nav a{
+    height:15px;
+    /* background: lightcoral; */
+    padding-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    padding: 40px 0 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
