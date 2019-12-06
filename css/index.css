@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	/* border: 0; */
 	font-size: 100%;
@@ -83,7 +83,7 @@ header nav{
     justify-content: space-between;
     /* align-content: center; */
     width: 100%;
-    padding: 0 0 0 45px;
+    padding: 0 40px 0 45px;
     /* background: lightblue; */
 }
 
@@ -205,26 +205,30 @@ footer nav a {
 }
 
 /* CSS for About page */
+.container.about-page{
+    width 900px;
+}
+
 .intro{
     margin-bottom: 20px;
+    line-height: 1.4;
 }
 
 .middle{
-    border-top: 1px dashed black;
+    border-top: 1px dashed lightgray;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 30px 0 0 10px;
+    padding: 30px 0 0 0px;
 }
 
 .about-box{
     /* background: teal; */
-    width: 49%;
-    border-bottom: 1px dashed black;
+    width: 48%;
+    border-bottom: 1px dashed lightgray;
 }
 
 .middle p{
-    line-height: 1;
     margin-bottom:20px; 
 }
 
@@ -235,13 +239,22 @@ footer nav a {
     height: 25px;
     width: 25%;
     font-size: 12px;
+    background: white;
 }
 
 .about-box.bottom-box{
     margin-top: 50px;
+    border-bottom: 1px dashed black;
     /* background: darkseagreen; */
 }
 
 .about-box img{
     margin-bottom: 10px;
+    width: 100%;
 }
+
+.conclusion{
+    padding:40px 10px 30px 0;
+    margin-left: 10px;
+}
+
