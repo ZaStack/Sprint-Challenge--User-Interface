@@ -16,9 +16,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 html, body {
@@ -201,4 +202,46 @@ footer nav a {
 }
 #box10{
     background:dodgerblue;
+}
+
+/* CSS for About page */
+.intro{
+    margin-bottom: 20px;
+}
+
+.middle{
+    border-top: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0 0 10px;
+}
+
+.about-box{
+    /* background: teal; */
+    width: 49%;
+    border-bottom: 1px dashed black;
+}
+
+.middle p{
+    line-height: 1;
+    margin-bottom:20px; 
+}
+
+.about-box button{
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+    width: 25%;
+    font-size: 12px;
+}
+
+.about-box.bottom-box{
+    margin-top: 50px;
+    /* background: darkseagreen; */
+}
+
+.about-box img{
+    margin-bottom: 10px;
 }
