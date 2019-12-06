@@ -252,3 +252,47 @@ footer nav a {
     margin-left: 10px;
 }
 
+/* CSS for Products Page */
+
+.products-banner img{
+    width:100%;
+}
+
+article h2{
+    font-size: 30px;
+}
+
+.he-follows{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 450px;
+    height: auto;
+}
+
+article p{
+    width: 40%;
+    ali
+}
+
+.article1 img{
+    width: 49%;
+    height: auto;
+}
+
+.article2 img{
+    width: 49%;
+    height: auto;
+}
+
+.article3 img{
+    width: 49%;
+    height: auto;
+}
+
+.products-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
