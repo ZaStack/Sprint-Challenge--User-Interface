@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -69,6 +69,30 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 40px 0 45px;
+}
+
+header nav a{
+    height:15px;
+    padding-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    padding: 40px 0 20px 0;
 }
 
 .top-content {
@@ -143,4 +167,132 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box1{
+    background:teal;
+}
+#box2{
+    background:gold;
+}
+#box3{
+    background:cadetblue;
+}
+#box4{
+    background:coral;
+}
+#box5{
+    background:crimson;
+}
+#box6{
+    background:forestgreen;
+}
+#box7{
+    background:darkorchid;
+}
+#box8{
+    background:hotpink;
+}
+#box9{
+    background:indigo;
+}
+#box10{
+    background:dodgerblue;
+}
+
+/* CSS for About page */
+.container.about-page{
+    width 900px;
+}
+
+.intro{
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.middle{
+    border-top: 1px dashed lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0 0 0px;
+}
+
+.about-box{
+    width: 48%;
+    border-bottom: 1px dashed lightgray;
+}
+
+.middle p{
+    margin-bottom:20px; 
+}
+
+.about-box button{
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+    width: 25%;
+    font-size: 12px;
+    background: white;
+}
+
+.about-box.bottom-box{
+    margin-top: 50px;
+    border-bottom: 1px dashed black;
+}
+
+.about-box img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.conclusion{
+    padding:40px 10px 30px 0;
+    margin-left: 10px;
+}
+
+/* CSS for Products Page */
+
+.products-banner img{
+    width:100%;
+}
+
+article h2{
+    font-size: 30px;
+}
+
+.he-follows{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 450px;
+    height: auto;
+}
+
+article p{
+    width: 40%;
+    ali
+}
+
+.article1 img{
+    width: 49%;
+    height: auto;
+}
+
+.article2 img{
+    width: 49%;
+    height: auto;
+}
+
+.article3 img{
+    width: 49%;
+    height: auto;
+}
+
+.products-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
